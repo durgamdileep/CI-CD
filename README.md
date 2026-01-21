@@ -414,3 +414,45 @@ CD:
 | ✅ JUnit | Write & run tests |
 | 📊 JaCoCo | Measure code coverage |
 | 🔍 SonarQube | Analyze code & show coverage |
+
+---
+## 🐳 Docker Image Build
+
+- 📦 Application is packaged as a Docker image
+- 🛠️ Dockerfile is used to create the image  
+
+---
+
+## 🔐 Docker Image Security Scan
+
+- 🔍 Scan Docker image for security vulnerabilities
+- 🧩 Finds OS-level and dependency issues
+- 🚫 Prevents insecure images from moving forward  
+
+---
+
+## 🚀 Push Image and Update Helm Chart
+
+- ⬆️ Docker image is pushed to:  
+  - 🐳 Docker Hub
+  - 🏢 Private container registry  
+- 🔄 Image tag is updated in:  
+  - ⎈ Helm chart
+  - 📄 Deployment manifest  
+
+- 🔁 CD pipeline picks the latest image from Helm chart  
+
+---
+
+## 🔁 CD – Continuous Delivery / Deployment
+
+### ❓ What is CD?
+
+- ▶️ CD starts after CI is successful
+- ☸️ Application is deployed using the latest Docker image
+- 📦 Uses Helm charts or Kubernetes manifests  
+
+### 🧭 Types:
+
+- 🛑 Continuous Delivery – Manual approval before production
+- ⚡ Continuous Deployment – Automatic production deployment  
