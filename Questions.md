@@ -217,7 +217,9 @@ Example:
   ```
 
 
-  --- ## 🐳 1. Why a single Docker agent might not be enough
+  ---
+
+  ## 🐳 1. Why a single Docker agent might not be enough
 
 - ⚠️ A single Docker agent runs all stages in **one container**  
 - 🏗️ But in real-world pipelines:  
